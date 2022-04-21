@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1650542061927') format('truetype');
+  src: url('iconfont.ttf?t=1650503618955') format('truetype');
 }
 
 .iconfont {
@@ -11,19 +11,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-cuowu:before {
-  content: "\f0155";
-}
-
 .icon-mima:before {
   content: "\e620";
 }
 
 .icon-yonghu:before {
   content: "\e616";
-}
-
-.icon-zhengqueshixin:before {
-  content: "\e909";
 }
 
