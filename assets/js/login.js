@@ -25,7 +25,7 @@ $('.login-form form').on('submit',function(e){
                if (res.status !== 0) {
                 return err (res.message)            
                }
-               localStorage.getItem('token',res.token)
+               localStorage.setItem('token',res.token)
                succ (res.message)    
                location.href = 'index.html'
            }

@@ -32,6 +32,13 @@
       "font_class": "zhengqueshixin",
       "unicode": "e909",
       "unicode_decimal": 59657
+    },
+    {
+      "icon_id": "4942675",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e623",
+      "unicode_decimal": 58915
     }
   ]
 }

@@ -1,0 +1,46 @@
+a {
+    transition: none !important;
+}
+i {
+    font-style:normal;
+}
+#user-img{
+    height: 60px;
+    line-height:60px;
+    padding-left:50px;
+    user-select:none;
+}
+#user-img span {
+    color:#fff;
+    font-size:12px;
+}
+.user-img {
+    height: 60px;
+    position: relative;
+}
+.layui-nav-list dd{
+    padding-left:20px !important;
+}
+
+.text-pic {
+    left:-5px;
+    position: relative;
+    display: inline-block;
+    line-height: 30px;
+    background-color: darkgreen;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.user-pic {
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#con-iframe {
+    width: 100%;
+    height: 100%;
+}
