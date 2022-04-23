@@ -11,7 +11,6 @@ $(function(){
 })
 
 
-
 //登录提交
 $('.login-form form').on('submit',function(e){
     e.preventDefault()
@@ -19,7 +18,7 @@ $('.login-form form').on('submit',function(e){
     let pas = $('.login-pas').val().trim()
      $.ajax({
            type:'post',
-           url:' http://api-breakingnews-web.itheima.net/api/login',
+           url:'/api/login',
            data:{username:name,password:pas},
            success:function(res){
                if (res.status !== 0) {
@@ -53,7 +52,7 @@ $('.reg-form form').on('submit',function(e){
     } else{
      $.ajax({
            type:'post',
-           url:' http://api-breakingnews-web.itheima.net/api/reguser',
+           url:' /api/reguser',
            data:$('.reg-form form').serialize(),
            success:function(res){
                if (res.status !== 0) {
