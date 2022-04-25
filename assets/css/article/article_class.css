@@ -1,0 +1,23 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 15px;
+    background: rgb(242,242,242);
+}
+.layui-card-header button {
+    margin-top: 6px;
+    float: right;
+}
+#addBox,
+#setBox {
+    width: 500px;
+    /* display: none; */
+}
+.layui-input-block {
+    padding-right: 40px;;
+}
+.layui-form-item {
+    margin-top: 15px;
+}

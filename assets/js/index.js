@@ -8,16 +8,8 @@
                     return console.log(res.message);
                 }
                 // 渲染头像
-                console.log(res.data);
                 renderPic(res.data)
-            },
-            complete:function(res){
-                if (res.responseJSON.status === 1 && res.responseJSON.message === '身份认证失败！') {
-                    location.href = '/login.html'
-                    localStorage.removeItem('token')
-                }
             }
-               //请求失败
         })
     }
     function renderPic (data) {
@@ -37,6 +29,11 @@
           
         }
     }
+    function clickTsis () {
+        $('.layui-this').removeClass('layui-this')
+        $('.chick-this').addClass('layui-this')
+
+    }
 $(function(){
     getIndex()
     //点击退出功能
@@ -46,4 +43,5 @@ $(function(){
     })
     //渲染头像
 })
+
 
